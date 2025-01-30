@@ -785,7 +785,7 @@ namespace DependenciesHunter
         private Vector2[] _foldoutsScrolls;
 
         // Added DH to avoid clash with Unity's built in menu item
-        [MenuItem("Assets/DH - Find References In Project", false, 20)]
+        [MenuItem("Assets/DH - Find References In Project [our]", false, 20)]
         public static void FindReferences()
         {
             var window = GetWindow<SelectedAssetsReferencesWindow>();
